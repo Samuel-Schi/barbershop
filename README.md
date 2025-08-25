@@ -1,4 +1,3 @@
-# Aula Zero
 
 - [x] Setup do banco
 - [x] Seeding do banco (colocar dados)
