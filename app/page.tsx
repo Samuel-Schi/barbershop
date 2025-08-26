@@ -48,7 +48,7 @@ const Home = async () => {
         </div>
 
         {/* BUSCA RÁPIDA */}
-        <div className="mt-6 flex gap-3 overflow-x-scroll [&::-webkit-scrollbar]:hidden">
+        <div className="mt-6 flex gap-3 overflow-x-scroll sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 [&::-webkit-scrollbar]:hidden">
           {quickSearchOptions.map((option) => (
             <Button
               className="gap-2"
